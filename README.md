@@ -27,11 +27,24 @@ Develop an interactive Power BI dashboard that visualizes sales metrics, order d
 
   ## 🗂️ Data Structure
 
-اسم الجدول	الوصف	أهم الأعمدة	
-Orders Table	يحتوي على جميع تفاصيل الطلبات	OrderID، Customer Info، Product ID، Product Category، Product Name، Total Cost، Total Profit، Total Sales	
-Date Table	يُستخدم لتحليل البيانات حسب الزمن	Date، Year، Month، Quarter	
-Customers Table (إن وجد)	يتضمن معلومات العملاء	Customer ID، Customer Name، City	
-Products Table (إن وجد)	يحتوي على تفاصيل المنتجات	Product ID، Product Name، Product Category
+Main Tables
+
+| Table Name        | Description                               | Key Columns                                                                 |
+|-------------------|---------------------------------------------|-------------------------------------------------------------------------------|
+| Orders Table      | Contains all order-level details            | OrderID, Customer Info, Product ID, Product Category, Product Name, Total Cost, Total Profit, Total Sales |
+| Date Table        | Used for time-based analysis                | Date, Year, Month, Quarter                                                   |
+| Customers Table   | Contains customer information (if included) | Customer ID, Customer Name, City                                             |
+| Products Table    | Contains product details (if included)      | Product ID, Product Name, Product Category                                   |
+
+
+
+Relationships
+
+| From Table | To Table   | Relationship Type |
+|------------|------------|-------------------|
+| Orders     | Date       | Many-to-One       |
+| Orders     | Customers  | Many-to-One       |
+| Orders     | Products   | Many-to-One       |
 
   ## 🖼️ imaage Project
   
