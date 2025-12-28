@@ -54,10 +54,14 @@ Relationships
 ## 📁 Files 
 
 -  contains raw data, analysis, and charts
-  -   https://drive.google.com/drive/folders/1YirPlbZsUfA7MHCKsRTrcAirij_KxIzS?usp=drive_link
+  -   [https://drive.google.com/drive/folders/1YirPlbZsUfA7MHCKsRTrcAirij_KxIzS?usp=drive_link](https://drive.google.com/drive/folders/1sj39OKOA2U2Nhi1MnYqpwBZAr5H2HE5P?usp=drive_link)
 
 ## 🚀 Future Enhancements
 
-* Add time-series analysis for property price trends
-* Integrate external datasets (e.g., demographics, infrastructure)
-* Build predictive models for property valuation. 
+* Add advanced DAX measures for deeper business insights.
+* Implement predictive analytics to forecast future sales trends.
+* Expand the dashboard with additional pages (e.g., Customer Insights, Product Performance).
+* Integrate more data sources to enrich the analysis.
+* Add drill‑through pages for detailed order and customer exploration.
+* Improve the data model with more dimensions (e.g., Region, Supplier).
+* Automate data refresh for real‑time updates.
