@@ -1,37 +1,37 @@
-# sales-data
-A comprehensive Power BI dashboard analyzing orders and sales from October 2024 to September 2025. Includes KPIs, shipping status, city-wise sales distribution, and top-performing product categories.
-# 📊Real Estate Insights Dashboard 
+# 📊sales-data Dashboard 
 
 ## 📌About the Project
-An interactive dashboard built with Power BI to analyze the Saudi Arabian real estate market. It provides a comprehensive view of property prices, counts, distribution across cities, and neighborhood-level insights.
+A comprehensive Power BI dashboard analyzing orders and sales from October 2024 to September 2025. Includes KPIs, shipping status, city-wise sales distribution, and top-performing product categories.
+
 ## 🎯 Objective 
 
-This project aims to transform raw real estate data into actionable insights.
-The dashboard allows users to explore property trends across major Saudi cities and neighborhoods, using filters and visualizations that make the data easy to understand.
-  
-## 🔍Project Features
-Display of Key Performance Indicators (KPIs)
-* Total Market Value & Property Count
-Displays the overall property value (324.91M SAR) and total number of properties (3718).
-* City Distribution
-Pie chart showing property counts across Dammam, Jeddah, Riyadh, and Khobar.
-* Neighborhood Price Analysis Highest priced neighborhoods (e.g., Hittin, Al Yasmeen, Al Narjis)
-* Lowest priced neighborhoods with average values
+Develop an interactive Power BI dashboard that visualizes sales metrics, order details, product categories, and city‑level performance to support data‑driven decisions.
 
-* Interactive Price Map
-A geographic visualization of property prices across major Saudi cities
-* Dynamic Filters By city and neighborhood
-* By property area (1–95,000 sqm)
-* By property age (0–36 years)
+## 🔍Project Features
+* Interactive dashboard presenting clear visual insights into sales and order performance
+* Monthly sales trend analysis through a line chart showing sales patterns across the year
+* Key Performance Indicators (KPIs) including Total Sales, Total Profit, and Orders Count
+* Shipping status analysis using a pie chart showing Delivered, In Transit, and Ready‑to‑Deliver orders
+* Product category comparison to identify top‑selling categories
+* Interactive map displaying city‑level sales distribution
+* Detailed orders table including Order ID, customer info, product details, cost, profit, and sales
+* Dynamic filters (Date, City, Product Category) for customized data exploration
+* Clear navigation between the Overview page and the Orders Details page
   
 ## 🛠️Tools Used
-* Power BI – for interactive dashboards and data visualization
-* Excel – for initial data preparation and cleaning
-* Power Query – for advanced data transformation and modeling
+* Power BI – For building the interactive dashboard and visualizing key insights.
+* Power Query – For cleaning, transforming, and preparing the data.
+* DAX (Data Analysis Expressions) – For creating measures and advanced calculations.
+* Excel – For organizing and preprocessing the raw data before importing it into Power BI.
+* Data Modeling – For designing table relationships and creating a structured analytical model.
 
   ## 🗂️ Data Structure
 
-|
+اسم الجدول	الوصف	أهم الأعمدة	
+Orders Table	يحتوي على جميع تفاصيل الطلبات	OrderID، Customer Info، Product ID، Product Category، Product Name، Total Cost، Total Profit، Total Sales	
+Date Table	يُستخدم لتحليل البيانات حسب الزمن	Date، Year، Month، Quarter	
+Customers Table (إن وجد)	يتضمن معلومات العملاء	Customer ID، Customer Name، City	
+Products Table (إن وجد)	يحتوي على تفاصيل المنتجات	Product ID، Product Name، Product Category
 
   ## 🖼️ imaage Project
   
